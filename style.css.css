@@ -1,0 +1,49 @@
+
+*{
+    margin: auto;
+    border-radius: 25px
+   }
+   #wrapper{
+    width: 1000px;
+    background-color: rgb(75, 70, 102);
+    margin: 0px auto;
+    border-radius: 25px;
+    padding: 10px;
+   }
+   h1{
+    height: 50px;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+
+}
+#topic{
+    color: rgb(192, 189, 189);
+   
+}
+#Home{
+    min-height: 300px;
+    width: 190px;
+    background-color: rgb(125, 224, 193);
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    display: block
+}
+#main_content{
+    min-height: 400px;
+    width: 650px;
+    background-color: black;
+    margin:  10px;
+    padding: 10px;
+        
+   }
+#navigation,#main_content{
+    vertical-align: top;
+    display: inline-block
+}
+#topic1{
+    color: whitesmoke;
+    font-size: 20px;
+}

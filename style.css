@@ -1,0 +1,51 @@
+
+   *{
+    margin: 10px;
+    padding:10px;
+   }#wrapper{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+   }
+   #header{
+    min-height: 150px;
+    background-color: green;
+    margin: 10px;
+    padding: 10px;
+   }
+   #navigation{
+    min-height: 300px;
+    width: 190px;
+    background-color: blue;
+    margin: 10px;
+   }
+   #main_content{
+    min-height: 400px;
+    width: 680px;
+    background-color: red;
+    margin:  10px;
+    padding: 10px;
+        
+   }
+   .subcontents{
+    min-height: 150px;
+    width: 180px;
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+    display: -webkit-inline-box;
+   }
+   #advertisement{
+    min-height: 120px;
+    width: 660px;
+    background-color: purple;
+    margin: 10px;
+    display: -webkit-inline-box
+   }
+   #navigation,#main_content{
+       float: left
+   }
+   .clear{
+       clear: both
+   }
+
